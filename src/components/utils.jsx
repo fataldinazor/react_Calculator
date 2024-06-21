@@ -1,10 +1,9 @@
 const calcBodyStyle = {
   height: "500px",
   width: "400px",
-  backgroundColor: "Aliceblue",
+  backgroundColor: "black",
   display: "grid",
   gridTemplateRows: "1fr 4fr",
-  borderRadius: "20px",
 };
 
 const keypadStyle = {
@@ -12,6 +11,19 @@ const keypadStyle = {
   gridTemplateColumns: "repeat(4 ,1fr)",
   gap: "5px",
   backgroundColor: "beige",
+  fontSize: "2rem",
+  borderRadius:"20px"
+};
+
+const screenStyle = {
+  backgroundColor: "beige",
+  color: "black",
+  textAlign: "right",
+  fontSize:"3.5rem",
+  fontWeight:"700",
+  borderRadius:"20px",
+  overflow:"auto"
+  // alignSelf:"self-end",
 };
 
 const mathSymbols = [
@@ -28,7 +40,7 @@ const mathSymbols = [
   { symbol: "four", type: "number", value: "4" },
   { symbol: "five", type: "number", value: "5" },
   { symbol: "six", type: "number", value: "6" },
-  { symbol: "equal", type: "operator", value: "=" },
+  { symbol: "equal", type: "equate", value: "=" },
 
   { symbol: "one", type: "number", value: "1" },
   { symbol: "two", type: "number", value: "2" },
@@ -36,4 +48,4 @@ const mathSymbols = [
   { symbol: "zero", type: "number", value: "0" },
 ];
 
-export { keypadStyle, calcBodyStyle, mathSymbols };
+export { keypadStyle, calcBodyStyle, mathSymbols,screenStyle };
