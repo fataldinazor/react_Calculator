@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import Calculator from "./components/calculator.jsx"
-import './App.css'
+import Calculator from "./components/calculator.jsx";
+import "./App.css";
 
 function App() {
-  return (   
-    <>
-    <Calculator/> 
-    </>
-  )
+  return <Calculator />;
 }
 
-export default App
+export default App;

@@ -23,7 +23,6 @@ const screenStyle = {
   fontWeight:"700",
   borderRadius:"20px",
   overflow:"auto"
-  // alignSelf:"self-end",
 };
 
 const mathSymbols = [

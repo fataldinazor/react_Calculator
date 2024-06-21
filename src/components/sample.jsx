@@ -1,7 +1,7 @@
 import { keypadStyle, mathSymbols,screenStyle } from "./utils";
 import { useState } from "react";
 
-export default function Sample() {
+export default function CalculatorBody() {
   const [firstVar, setFirstVar] = useState("");
   const [secondVar, setSecondVar] = useState("");
   const [operator, setOperator] = useState("");
